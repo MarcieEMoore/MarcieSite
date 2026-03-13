@@ -1,0 +1,69 @@
+.sidenav {
+    height: 100%;
+    width: 17%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: white;
+
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.main {
+    margin-left: 17%;
+}
+
+.title-font {
+    font-family: 'gorgias', sans-serif;
+    font-style: normal;
+}
+
+.sub-font {
+    font-family: 'georgia', sans-serif;
+    font-style: normal;
+}
+
+.body-font {
+    font-family: 'georgia', sans-serif;
+    font-style: normal;
+}
+
+.copyright {
+    font-family: 'georgia', sans-serif;
+    font-style: normal;
+    font-size: small;
+    opacity: 75%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5%;
+    column-gap: 1%;
+}
+
+.events-gallery-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2%;
+    column-gap: 1%;
+}
+
+.single-grid {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 1%;
+}
+
+.curation-section {
+    align-items: center;
+    text-align: center;
+}
+
+.curation-carousel {
+    width: 50%;
+    margin-left: 25%;
+}

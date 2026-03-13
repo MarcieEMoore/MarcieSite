@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <!--import fonts here-->
+    <script>
+        (function(d) {
+            var config = {
+                kitId: 'sla7vwu',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+
+    <!--Importing Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcie Moore</title>
+
+</head>
+
+<body>
+    
+    <!--Sidebar-->
+    <div class="sidenav">
+        <br>
+        <!--home page-->
+        <a onclick="document.location='index'"><h2 class="responsive-text title-font">Marcie Moore</h2></a>
+        <br>
+        <!--sub pages-->
+        <div class="container sub-font">
+            <a onclick="document.location='about'"><h6 class="responsive-text">About</h6></a>
+            <a style="opacity: 50%;"><h6 class="responsive-text">Projects</h6></a>
+            <a onclick="document.location='events'"><h6 class="responsive-text">Events</h6></a>
+            <a onclick="document.location='curation'"><h6 class="responsive-text">Curation</h6></a>
+        </div>
+        <!--style="opacity: 75%;"-->
+
+        <br><br><br><br><br><br><br> <!--clean up later...-->
+
+        <!--copyright info-->
+        <p class="responsive-text container copyright">
+            Content ©Marcie Moore. Site design by Georgia Mackesy
+        </p>
+    </div>
+
+    <!--Content-->
+    <div class="main body-font">
+        <div class="projects-grid">
+            <a onclick="document.location='project1'">
+                <img src="https://file.garden/aOtmp_Be6gwrFnBa/website%20resources/personal/DSC04998.jpg" alt="" class="img-fluid">
+                <p class="responsive-text">
+                    project1
+                </p>
+            </a>
+            <a onclick="document.location='project1'">
+                <img src="https://file.garden/aOtmp_Be6gwrFnBa/website%20resources/personal/DSC04998.jpg" alt="" class="img-fluid">
+                <p class="responsive-text">
+                    project2
+                </p>
+            </a>
+            <a onclick="document.location='project1'">
+                <img src="https://file.garden/aOtmp_Be6gwrFnBa/website%20resources/personal/DSC04998.jpg" alt="" class="img-fluid">
+                <p class="responsive-text">
+                    project3
+                </p>
+            </a>
+            <a onclick="document.location='project1'">
+                <img src="https://file.garden/aOtmp_Be6gwrFnBa/website%20resources/personal/DSC04998.jpg" alt="" class="img-fluid">
+                <p class="responsive-text">
+                    project4
+                </p>
+            </a>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
